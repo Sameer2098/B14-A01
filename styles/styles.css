@@ -1,4 +1,9 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
 
 
 .container{
@@ -29,5 +34,46 @@
   margin: 10px;;
 }
 
+.banner {
+    background-image: url("/assets/banner.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
 
+    color: white;
+}
 
+.banner-content {
+   
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 15px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+.btn2{
+background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 13px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top:  230px;
+  
+
+}
