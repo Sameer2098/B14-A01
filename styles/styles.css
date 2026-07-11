@@ -296,3 +296,130 @@ background-color: #2563eb;
   border: 1px solid #2f6fed;
   color: #ffffff;
 }
+
+
+
+/* ---------- Section wrapper ---------- */
+.hackathon-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+ 
+/* ---------- Header ---------- */
+.hackathon-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+ 
+.hackathon-dash {
+  display: inline-block;
+  width: 28px;
+  height: 3px;
+  background: #d946a8;
+  border-radius: 2px;
+  margin-bottom: 14px;
+}
+ 
+.hackathon-title {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+ 
+.hackathon-subtitle {
+  font-size: 14px;
+  color: #767676;
+}
+ 
+/* ---------- Stat strip (dark banner) ---------- */
+.hackathon-stats {
+  display: flex;
+  background: #12172b;
+  border-radius: 10px;
+  padding: 28px 0;
+  margin-bottom: 36px;
+}
+ 
+.stat-item {
+  flex: 1;
+  text-align: center;
+  border-left: 1px solid #2b3350;
+}
+ 
+.stat-item:first-child {
+  border-left: none;
+}
+ 
+.stat-number {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+}
+ 
+.stat-label {
+  font-size: 12px;
+  color: #a9adc2;
+  margin-top: 4px;
+}
+ 
+/* ---------- Track list (horizontal rows) ---------- */
+.track-list {
+  border-top: 1px solid #e6e6e6;
+  margin-bottom: 36px;
+}
+ 
+.track-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+ 
+.track-index {
+  font-size: 13px;
+  font-weight: 700;
+  color: #2f6fed;
+  width: 28px;
+  flex-shrink: 0;
+}
+ 
+.track-info {
+  flex-grow: 1;
+}
+ 
+.track-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+ 
+.track-desc {
+  font-size: 13px;
+  color: #767676;
+  line-height: 1.5;
+}
+ 
+.track-prize {
+  font-size: 18px;
+  font-weight: 800;
+  color: #111111;
+  flex-shrink: 0;
+}
+ 
+/* ---------- Button ---------- */
+.hackathon-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  background: #2f6fed;
+  border: 1px solid #2f6fed;
+  color: #ffffff;
+  cursor: pointer;
+}
+ 
