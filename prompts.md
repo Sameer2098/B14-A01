@@ -1,0 +1,1 @@
+ Generate a new original section idea that could be hackathon based that fits the conference theme but isnt already covered (not speakers, not pricing). Suggest one creative concept then write basic HTML and CSS and make the style relevant as the image ive attached.
