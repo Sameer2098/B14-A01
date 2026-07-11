@@ -312,15 +312,6 @@ background-color: #2563eb;
   margin-bottom: 36px;
 }
  
-.hackathon-dash {
-  display: inline-block;
-  width: 28px;
-  height: 3px;
-  background: #d946a8;
-  border-radius: 2px;
-  margin-bottom: 14px;
-}
- 
 .hackathon-title {
   font-size: 30px;
   font-weight: 800;
@@ -421,5 +412,32 @@ background-color: #2563eb;
   border: 1px solid #2f6fed;
   color: #ffffff;
   cursor: pointer;
+}
+ 
+
+/* ---------- Footer ---------- */
+.site-footer {
+  background: #12172b;
+  padding: 24px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.footer-copy {
+  font-size: 13px;
+  color: #a9adc2;
+}
+ 
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+ 
+.footer-links li {
+  font-size: 13px;
+  color: #a9adc2;
+  text-decoration: none;
+  list-style: none;
 }
  
